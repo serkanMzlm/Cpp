@@ -9,7 +9,7 @@ class sinif { //sınıf tanımı
 		x = X; // alınan degerleri atama yapılıyor  
 		y = Y;
 	}
-		void goster(){ // x ve y degerleri ekranda gösterme 
+		void goster(){ // x ve y degerleri ekranda gösteren fonksiyon
 		cout << "X = " << x << endl;
 		cout << "Y = " << y << endl;	
 	}
