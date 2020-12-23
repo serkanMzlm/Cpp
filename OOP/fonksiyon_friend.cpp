@@ -11,7 +11,7 @@ class Tarih {
 	
 };
 Tarih::Tarih(int yil , string ay , int  gun ){
-	this -> yil = yil;
+	this -> yil = yil; // aynı değişken adları kullanıldığı için  'this pointer'  kullanıldı
 	this -> ay = ay;
 	this -> gun = gun;
 }
