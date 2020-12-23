@@ -6,13 +6,13 @@ class Tarih {
 		string  ay;
 		int gun;
 	public : 
-		Tarih(int , string ,int); //constructor tanımladık 
-		friend class  Yaz; // arkadaş sınıfı 
+		Tarih(int , string ,int); //constructor tanÃ½mladÃ½k 
+		friend class  Yaz; // arkadaÃ¾ sÃ½nÃ½fÃ½ 
 	
 };
 
 Tarih::Tarih(int yil , string ay , int  gun ){
-	this -> yil = yil; // aynı adlar kullanıldığı içiin 'this pointer' yararlandık 
+	this -> yil = yil; // aynÃ½ adlar kullanÃ½ldÃ½Ã°Ã½ iÃ§iin 'this pointer' yararlandÃ½k 
 	this -> ay = ay;
 	this -> gun = gun;
 }
@@ -30,7 +30,7 @@ cout << yaz.gun << "/" << yaz.ay << "/" << yaz.yil << endl;
 main(){
 
 	Tarih tarih(2020,"Aralik",23);
-	Yaz::ekrana_yaz(tarih); // static  bir fonksiyon oldugu için '::' erişebiliriz
+	Yaz::ekrana_yaz(tarih); // static  bir fonksiyon oldugu iÃ§in '::' eriÃ¾ebiliriz
 
 	return 0;
 }
