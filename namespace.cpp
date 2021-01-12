@@ -1,3 +1,14 @@
+/*
+------------------------------------------------------------
+Program içerisinde yerel ve global değişkenlerimiz mevcut
+GLOBAL değişkenlere programın herhangi bir yerinden uulaşılabilir
+YEREL değişkenlere sadece bulundugu scope içinde geçerlibir bu scope 
+içinde değişken oluşturulur işlevini yapar ve kaldirirlir.
+------------------------------------------------------------
+Program gödüğü değişkeni ilk önce scope içinde arar eger bulamazsa
+global  değişken var mı onu kontrol eder.
+------------------------------------------------------------
+*/
 #include "iostream"
 using namespace std;
 namespace deneme1{
