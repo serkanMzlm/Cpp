@@ -4,8 +4,8 @@ using namespace std;
 int a = 10 ;
 
 int main(){
-	cout << "Postfix = " << a++ << endl; // önce yazar sonra değeri bir artırır (postfix)
-	cout << "Prefix = " << ++a << endl;  // önce değeri bir artırır sonra yazar (prefix)
+	cout << "Postfix = " << a++ << endl; // Ã¶nce yazar sonra degeri bir artirir (postfix)
+	cout << "Prefix = " << ++a << endl;  // Ã¶nce deÃ°eri bir artirir sonra yazar (prefix)
 	
 	return 0;
 }
