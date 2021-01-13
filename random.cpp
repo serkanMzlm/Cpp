@@ -6,9 +6,9 @@ using namespace std;
 int main(){
 
 	int random;
-    srand (time(NULL)); // random sayýmýzýn baþlangýcýný sistem zamanýndan baþlatýyoruz
+    srand (time(NULL)); // random sayiyimizin baslangicini  sistem zamanindan baslatir
 	for (int i = 0 ; i <5 ; i++){
-	random = rand()/100; // bu  sayý cok büyük olacagýndan  100 bölerek ekrana basýyoruz
+	random = rand()/100; // bu sayi cok bÃ¼yÃ¼k oldugundan 100 bolerek aliyoruz
 	cout << random << endl;
 	
 	}
