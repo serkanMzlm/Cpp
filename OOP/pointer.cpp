@@ -38,7 +38,7 @@ int main()
    kordinat1.ekrana_yaz();
    kordinat3->degerata(1000,1000);
    cout<<endl<<"kordinat 3 "<<endl;
-   kordinat3->ekrana_yaz();
+   kordinat3->ekrana_yaz();//(*kordinat3).ekrana_yaz(); seklinde yazilabilir
    kordinat dizi[10]; //10 tane nesneli bir dizi olusturuldu
    kordinat* pdizi;
    pdizi = new kordinat[10];// bellekte 10 tane adres tutmus olduk
